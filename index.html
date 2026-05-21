@@ -1,0 +1,321 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Gabriel Alex - Coach</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@400;600;700&family=Raleway:wght@300;400;600;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <nav class="navbar" id="navbar">
+    <div class="container nav-container">
+      <a href="#home" class="logo">GABRIEL <span>ALEX</span></a>
+      <button class="hamburger" id="hamburger" aria-label="Menu">
+        <span></span><span></span><span></span>
+      </button>
+      <ul class="nav-menu" id="navMenu">
+        <li><a href="#home" class="nav-link active">Home</a></li>
+        <li><a href="#sobre" class="nav-link">Sobre Mim</a></li>
+        <li><a href="#planos" class="nav-link">Planos</a></li>
+        <li><a href="#area-aluno" class="nav-link">Área do Aluno</a></li>
+        <li><a href="#depoimentos" class="nav-link">Relatos</a></li>
+        <li><a href="#contato" class="nav-link">Contato</a></li>
+      </ul>
+    </div>
+  </nav>
+
+  <section id="home" class="hero">
+    <div class="hero-overlay"></div>
+    <div class="container hero-content">
+      <p class="hero-tag reveal">Atleta e Coach de Musculação</p>
+      <h1 class="hero-title reveal">SUA MELHOR<br />VERSÃO COMEÇA<br /><span>AQUI</span></h1>
+      <p class="hero-sub reveal">Planejamento personalizado com metodologia comprovada para resultados reais.</p>
+      <a href="#planos" class="btn-primary reveal">VER PLANOS <i class="fas fa-arrow-right"></i></a>
+      <div class="hero-stats reveal">
+        <div><span>8+</span> Anos de Treino</div>
+        <div><span>2x</span> Campeonatos</div>
+        <div><span>1º</span> Muscle Contest</div>
+      </div>
+    </div>
+  </section>
+
+  <section id="sobre" class="about section-collapsible">
+    <div class="section-content">
+      <div class="container">
+        <div class="about-grid">
+          <div class="about-image reveal">
+            <div class="image-frame">
+              <img src="src/JMD_6149.JPEG" alt="Gabriel Alex" loading="lazy" />
+            </div>
+          </div>
+          <div class="about-text reveal">
+            <span class="section-tag">SOBRE MIM</span>
+            <h2 class="section-title">DO PALCO PARA <span>SUA JORNADA</span></h2>
+            <p>Meu nome é Gabriel Alex, atleta de fisiculturismo e coach. A musculação entrou na minha vida e mudou completamente minha história — não apenas no shape, mas na mente e na disciplina. Hoje, meu propósito é compartilhar tudo que aprendi ao longo de mais de 8 anos de dedicação para ajudar você a conquistar sua melhor versão.</p>
+            <p>Já subi no palco 2 vezes como competidor: fui <strong>campeão estreante na Muscle Contest Maceió - Bodybuilder Junior</strong> e também competi na <strong>Muscle Contest Recife</strong>. Cada competição me ensinou que o resultado verdadeiro vem da constância, do planejamento e de quem está ao seu lado na jornada.</p>
+            <div class="about-features">
+              <div><i class="fas fa-trophy"></i> Campeão Estreante - Muscle Contest Maceió</div>
+              <div><i class="fas fa-trophy"></i> Competidor - Muscle Contest Recife</div>
+              <div><i class="fas fa-dumbbell"></i> 8+ anos de experiência em musculação</div>
+              <div><i class="fas fa-users"></i> Acompanhamento presencial e online</div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="planos" class="plans">
+    <div class="container">
+      <div class="section-header reveal">
+        <span class="section-tag">PLANOS</span>
+        <h2 class="section-title">ESCOLHA SEU <span>PLANO</span></h2>
+      </div>
+      <div class="plans-wrapper">
+        <button class="plans-arrow prev" id="plansPrevBtn"><i class="fas fa-chevron-left"></i></button>
+        <div class="plans-grid" id="plansGrid">
+          <div class="plan-card reveal">
+            <div class="plan-badge">POPULAR</div>
+            <div class="plan-icon"><i class="fas fa-running"></i></div>
+            <h3>INICIANTE</h3>
+            <p class="plan-desc">Perfeito para quem está começando</p>
+            <div class="plan-price"><span>R$</span>97<span>/mês</span></div>
+            <ul class="plan-features">
+              <li><i class="fas fa-check"></i> 3x por semana</li>
+              <li><i class="fas fa-check"></i> Avaliação física</li>
+              <li><i class="fas fa-check"></i> Treino personalizado</li>
+              <li><i class="fas fa-check"></i> Suporte via WhatsApp</li>
+              <li><i class="fas fa-check"></i> Acesso ao app</li>
+            </ul>
+            <a href="#contato" class="btn-secondary">QUERO ESSE</a>
+          </div>
+          <div class="plan-card featured reveal">
+            <div class="plan-badge">RECOMENDADO</div>
+            <div class="plan-icon"><i class="fas fa-dumbbell"></i></div>
+            <h3>FITNESS</h3>
+            <p class="plan-desc">Resultado acelerado</p>
+            <div class="plan-price"><span>R$</span>147<span>/mês</span></div>
+            <ul class="plan-features">
+              <li><i class="fas fa-check"></i> 5x por semana</li>
+              <li><i class="fas fa-check"></i> Avaliação física completa</li>
+              <li><i class="fas fa-check"></i> Treino Periodizado</li>
+              <li><i class="fas fa-check"></i> Suporte prioritário</li>
+              <li><i class="fas fa-check"></i> Acesso ao app</li>
+              <li><i class="fas fa-check"></i> Consulta nutricional</li>
+              <li><i class="fas fa-check"></i> Área do Aluno exclusiva</li>
+            </ul>
+            <a href="#contato" class="btn-primary">QUERO ESSE</a>
+          </div>
+          <div class="plan-card reveal">
+            <div class="plan-badge">ELITE</div>
+            <div class="plan-icon"><i class="fas fa-crown"></i></div>
+            <h3>HIGH PERFORMANCE</h3>
+            <p class="plan-desc">Resultado máximo</p>
+            <div class="plan-price"><span>R$</span>247<span>/mês</span></div>
+            <ul class="plan-features">
+              <li><i class="fas fa-check"></i> Treino ilimitado</li>
+              <li><i class="fas fa-check"></i> Avaliação completa</li>
+              <li><i class="fas fa-check"></i> Periodização avançada</li>
+              <li><i class="fas fa-check"></i> Suporte VIP 24h</li>
+              <li><i class="fas fa-check"></i> Acesso ao app premium</li>
+              <li><i class="fas fa-check"></i> Consulta nutricional</li>
+              <li><i class="fas fa-check"></i> Acompanhamento presencial</li>
+              <li><i class="fas fa-check"></i> Área do Aluno exclusiva</li>
+            </ul>
+            <a href="#contato" class="btn-secondary">QUERO ESSE</a>
+          </div>
+        </div>
+        <button class="plans-arrow next" id="plansNextBtn"><i class="fas fa-chevron-right"></i></button>
+      </div>
+      <div class="plans-dots" id="plansDots"></div>
+    </div>
+  </section>
+
+  <section id="area-aluno" class="student-area section-collapsible">
+    <div class="section-content">
+      <div class="container">
+        <div class="student-access-link reveal">
+          <a href="http://44.192.99.40/" target="_blank" class="btn-primary btn-access">ACESSAR ÁREA DO ALUNO <i class="fas fa-external-link-alt"></i></a>
+        </div>
+        <div class="student-grid">
+          <div class="student-text reveal">
+            <h3>SUA EVOLUÇÃO EM UM SÓ LUGAR</h3>
+            <p>Com os planos Fitness ou High Performance, você ganha acesso à plataforma exclusiva <strong>Área do Aluno</strong>, onde seu planejamento e o acompanhamento com o coach se encontram em tempo real. Tudo pensado para acelerar seus resultados com a segurança de quem tem suporte de verdade.</p>
+            <div class="student-benefits">
+              <div><i class="fas fa-check-circle"></i> Planejamento atualizado semanalmente</div>
+              <div><i class="fas fa-check-circle"></i> Metas ajustadas ao seu progresso</div>
+              <div><i class="fas fa-check-circle"></i> Feedback direto do coach</div>
+              <div><i class="fas fa-check-circle"></i> Evolução monitorada em tempo real</div>
+            </div>
+          </div>
+          <div class="student-image reveal">
+            <div class="student-image-grid">
+              <div class="student-icon-card">
+                <i class="fas fa-dumbbell"></i>
+                <span>PLANEJAMENTO</span>
+              </div>
+              <div class="student-icon-card">
+                <i class="fas fa-bullseye"></i>
+                <span>METAS</span>
+              </div>
+              <div class="student-icon-card">
+                <i class="fas fa-user-md"></i>
+                <span>COACH</span>
+              </div>
+              <div class="student-icon-card">
+                <i class="fas fa-chart-line"></i>
+                <span>EVOLUÇÃO</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="depoimentos" class="testimonials">
+    <div class="container">
+      <div class="section-header reveal">
+        <span class="section-tag">RELATOS</span>
+        <h2 class="section-title">O QUE DIZEM <span>MEUS ALUNOS</span></h2>
+      </div>
+      <div class="testimonials-wrapper">
+        <button class="testimonial-arrow prev" id="prevBtn"><i class="fas fa-chevron-left"></i></button>
+        <div class="testimonials-track" id="testimonialsTrack">
+          <div class="testimonial-card">
+            <div class="stars">
+              <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i>
+            </div>
+            <p>"Perdi 12kg em 4 meses! O Gabriel me motivou quando eu queria desistir. Mudou minha vida."</p>
+            <div class="testimonial-author">
+              <img src="https://images.unsplash.com/photo-1629460240305-3511c88e37be?w=80&h=80&fit=crop" alt="Aluna" loading="lazy" />
+              <div><strong>Camila Duarte</strong><span>Aluna há 8 meses</span></div>
+            </div>
+          </div>
+          <div class="testimonial-card">
+            <div class="stars">
+              <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i>
+            </div>
+            <p>"Nunca consegui manter uma rotina de treinos até encontrar o Gabriel. A metodologia dele é diferenciada!"</p>
+            <div class="testimonial-author">
+              <img src="https://images.unsplash.com/photo-1568602471122-7832951cc4c5?w=80&h=80&fit=crop" alt="Aluno" loading="lazy" />
+              <div><strong>Thiago Almeida</strong><span>Aluno há 1 ano</span></div>
+            </div>
+          </div>
+          <div class="testimonial-card">
+            <div class="stars">
+              <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i>
+            </div>
+            <p>"Treino online e mesmo à distância sinto que tenho acompanhamento total. Resultado incrível!"</p>
+            <div class="testimonial-author">
+              <img src="https://images.unsplash.com/photo-1614644147724-2d4785d69962?w=80&h=80&fit=crop" alt="Aluna" loading="lazy" />
+              <div><strong>Juliana Costa</strong><span>Aluna online há 6 meses</span></div>
+            </div>
+          </div>
+          <div class="testimonial-card">
+            <div class="stars">
+              <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i>
+            </div>
+            <p>"Ganhei massa magra e minha autoestima está lá em cima. Melhor investimento que fiz!"</p>
+            <div class="testimonial-author">
+              <img src="https://images.unsplash.com/photo-1534308983496-4fabb1a015ee?w=80&h=80&fit=crop" alt="Aluno" loading="lazy" />
+              <div><strong>Lucas Martins</strong><span>Aluno há 5 meses</span></div>
+            </div>
+          </div>
+        </div>
+        <button class="testimonial-arrow next" id="nextBtn"><i class="fas fa-chevron-right"></i></button>
+      </div>
+      <div class="testimonial-dots" id="dotsContainer"></div>
+    </div>
+  </section>
+
+  <section id="contato" class="contact section-collapsible">
+    <div class="section-content">
+      <div class="container">
+        <div class="section-header reveal">
+          <span class="section-tag">CONTATO</span>
+          <h2 class="section-title">VAMOS COMEÇAR <span>SUA JORNADA</span></h2>
+        </div>
+        <div class="contact-grid">
+          <div class="contact-info reveal">
+            <h3>Informações</h3>
+            <div class="info-item">
+              <i class="fas fa-map-marker-alt"></i>
+              <div>
+                <strong>Localização</strong>
+                <p>Maceió - AL</p>
+              </div>
+            </div>
+            <div class="info-item">
+              <i class="fas fa-phone-alt"></i>
+              <div>
+                <strong>Telefone</strong>
+                <p>(82) 99999-0000</p>
+              </div>
+            </div>
+            <div class="info-item">
+              <i class="fas fa-envelope"></i>
+              <div>
+                <strong>E-mail</strong>
+                <p>contato@gabrielalex.com.br</p>
+              </div>
+            </div>
+            <div class="info-item">
+              <i class="fas fa-clock"></i>
+              <div>
+                <strong>Horários</strong>
+                <p>Seg a Sex: 6h - 21h | Sáb: 8h - 12h</p>
+              </div>
+            </div>
+            <div class="social-links">
+              <a href="#" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+              <a href="#" aria-label="YouTube"><i class="fab fa-youtube"></i></a>
+              <a href="#" aria-label="WhatsApp"><i class="fab fa-whatsapp"></i></a>
+            </div>
+          </div>
+          <form class="contact-form reveal" id="contactForm">
+            <div class="form-group">
+              <input type="text" id="name" placeholder="Seu nome" required />
+            </div>
+            <div class="form-group">
+              <input type="email" id="email" placeholder="Seu e-mail" required />
+            </div>
+            <div class="form-group">
+              <input type="tel" id="phone" placeholder="Seu telefone" />
+            </div>
+            <div class="form-group">
+              <select id="interest" required>
+                <option value="">Qual plano te interessa?</option>
+                <option value="iniciante">Iniciante</option>
+                <option value="fitness">Fitness</option>
+                <option value="high">High Performance</option>
+              </select>
+            </div>
+            <div class="form-group">
+              <textarea id="message" rows="5" placeholder="Sua mensagem" required></textarea>
+            </div>
+            <button type="submit" class="btn-primary btn-full">ENVIAR MENSAGEM <i class="fas fa-paper-plane"></i></button>
+          </form>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <footer class="footer">
+    <div class="container footer-content">
+      <p>&copy; 2026 Gabriel Alex Coach. Todos os direitos reservados.</p>
+    </div>
+  </footer>
+
+  <div class="whatsapp-float">
+    <a href="https://wa.me/5582999990000" target="_blank" aria-label="WhatsApp">
+      <i class="fab fa-whatsapp"></i>
+    </a>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
